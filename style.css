@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navegation{
+    border: solid;
+    height: 10vh;
+    width: 100vw;
+}
+.bolodechocolate{
+    background-image: url(imagens/bolochoc1.jpg);
+    width: 100vw;
+    height: 120vh;
+    background-size: 100%;
+ 
+
+}
