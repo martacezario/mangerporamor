@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +8,143 @@
     text-decoration: none;
 }
 
-.navegation{
-    border: solid;
-    height: 10vh;
-    width: 100vw;
-}
-.bolodechocolate{
-    background-image: url(imagens/bolochoc1.jpg);
-    width: 100vw;
+.bolodechoco{
+    background-image: url(imagens/macarronhoriz.jpg);
+    max-width: 100vw;
     height: 120vh;
-    background-size: 100%;
- 
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 
 }
+.navegation {
+    
+    height: 10vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    background-color: rgba(102, 36, 36, 0.541);
+}
+
+a{
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+.textdiscount{
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 8rem;
+   
+}
+.Discount{
+  
+    width: 30rem;
+    height: 30rem;
+    padding-top: 12rem;
+    margin: 2rem;
+    
+}
+.botão1{
+    
+    border-radius: 20px;
+    background-color: #3A2714;
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.info1{
+    
+    height: 10vh;
+    background-color: #643500;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+.infoentrega{
+    color: black;
+}
+.aboutus{
+    
+    height: 23vh;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: #FFB96B;
+    
+}
+.whatwedo{
+    
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Cairo', sans-serif;
+    background-color: #FFB96B;
+}
+.diVoquefazemOs{
+    background-color: #FFB96B;
+    
+    height: 10vh;
+    padding-top: 0.8rem;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.5rem;
+
+}
+.artesanal{
+    
+    font-size: 1.5rem;
+    font-family: 'Cairo', sans-serif;
+    background-color:#643500;
+    color: white;
+    padding-top: 2rem;
+    width: 15vw;
+    text-align: center;
+    
+}
+.ingredientes{
+   
+    font-size: 1.5rem;
+    font-family: 'Cairo', sans-serif;
+    background-color:#643500;
+    color: white;
+    padding-top: 2rem;
+    width: 15vw;
+    text-align: center;
+
+}
+.decoração{
+
+    
+    font-size: 1.5rem;
+    font-family: 'Cairo', sans-serif;
+    background-color:#643500;
+    color: white;
+    padding-top: 2rem;
+    width: 15vw;
+    text-align: center;
+}
+.entrega{
+    
+    font-size: 1.5rem;
+    font-family: 'Cairo', sans-serif;
+    background-color:#643500;
+    padding-top: 2rem;
+    width: 15vw;
+    text-align: center;
+    color: white;
+}
+.categories1{
+    border: solid black;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    grid-template-rows: auto;
+}
+
